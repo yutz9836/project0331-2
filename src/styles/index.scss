@@ -1,0 +1,17 @@
+@import "src/styles/fontawesome/fontawesome.scss";
+
+@import "src/styles/fontawesome/brands.scss";
+@import "src/styles/fontawesome/solid.scss";
+
+  .blog-header-logo {
+    overflow: hidden;
+    text-indent: -999px;
+    background-repeat: no-repeat;
+    background-image: url(/build/images/gulp.png);
+    background-position: center;
+    background-size: 64px;
+    display: block;
+    height: 128px;
+    width: 128px;
+    margin: 15px auto;
+  }

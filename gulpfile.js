@@ -31,6 +31,13 @@ const buildSass = function(cb){
     cb();
 }
 
+import { library, icon } from '@fortawesome/fontawesome-svg-core'
+import { faIgloo } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faIgloo)
+
+const igloo = icon({ prefix: 'fas', iconName: 'igloo' })
+
 const webServer = async function(){
   console.log('reload');
   connect.server({
